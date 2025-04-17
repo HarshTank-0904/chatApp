@@ -8,7 +8,7 @@ const messageRoutes = require("./Routes/messageRoutes");
 const cors = require("cors");
 
 app.use(cors({
-  origin: 'https://chatapp-yun0.onrender.com',
+  origin: 'https://chat-app-a9ww.vercel.app/',
   credentials: true
 }));
 
