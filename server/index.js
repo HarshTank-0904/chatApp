@@ -7,11 +7,11 @@ const chatRoutes = require("./Routes/chatRoutes");
 const messageRoutes = require("./Routes/messageRoutes");
 const cors = require("cors");
 
-app.use(
-  cors({
-    origin: "*",
-  })
-);
+app.use(cors({
+  origin: 'https://chatapp-yun0.onrender.com',
+  credentials: true
+}));
+
 dotenv.config();
 app.use(express.json());
 
